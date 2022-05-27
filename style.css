@@ -29,12 +29,9 @@ div{
 }
 .head_center{
     display: flex;
-    
     justify-content: space-between;
-    align-items: center;
-     
-    padding: 20px 40px;
-     
+    align-items: center; 
+    padding: 20px 0; 
 }
 a{
     text-decoration: none;
@@ -159,4 +156,12 @@ img{
     text-align: right;
     font-weight: 900;
 
+}
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0px;
 }
