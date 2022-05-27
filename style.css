@@ -80,11 +80,12 @@ a{
 .hero_left_button{
     background-color: #3882F6;
     color: #e5e7eb;
-    padding: 2px 10px;
-    width: 100px;
+    padding: 5px 25px;
+    /* width: 100px; */
     border-radius: 5px;
     font-size: 18px;
     font-weight: bold;
+    border: 0;
 }
 img{
     max-width:100%;
@@ -157,6 +158,41 @@ img{
     font-weight: 900;
 
 }
+.fourth{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.fourth_center{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    background-color: #3882F6;
+    flex-basis: 100%;
+    padding: 50px 100px;
+    color: #e5e7eb;
+    border-radius: 5px;
+    margin: 0 40px;
+}
+.fourth_left_up{
+    font-size: 18px;
+    font-weight: 900;
+}
+.fourth_left_down{
+    font-size: 18px;
+}
+.fourth_button{
+    color: #e5e7eb;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px 25px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 2px solid #e5e7eb;
+}
+
 .footer{
     background-color: #1f2937;
     color: #e5e7eb;
